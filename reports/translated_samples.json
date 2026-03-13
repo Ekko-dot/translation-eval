@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "created": "2026-03-13",
+    "total": 5,
+    "direction": "zh2en"
+  },
+  "translations": [
+    {
+      "id": "001",
+      "source": "酒店距离深圳宝安国际机场仅30分钟车程，提供免费接送机服务。",
+      "entities": ["深圳宝安国际机场"],
+      "translation": "The hotel is just a 30-minute drive from Shenzhen Bao'an International Airport, and offers free airport shuttle service."
+    },
+    {
+      "id": "002",
+      "source": "从北京首都国际机场乘坐机场快轨可直达市中心。",
+      "entities": ["北京首都国际机场"],
+      "translation": "You can take the airport express train directly to the city center from Beijing Capital International Airport."
+    },
+    {
+      "id": "003",
+      "source": "酒店位于外滩附近，步行5分钟即可到达东方明珠塔。",
+      "entities": ["外滩", "东方明珠塔"],
+      "translation": "The hotel is located near the Bund, and it's just a 5-minute walk to the Oriental Pearl Tower."
+    },
+    {
+      "id": "004",
+      "source": "故宫博物院每天接待数万名游客，建议提前网上预约。",
+      "entities": ["故宫博物院"],
+      "translation": "The Palace Museum receives tens of thousands of visitors every day, and it's recommended to make an online reservation in advance."
+    },
+    {
+      "id": "005",
+      "source": "从西安咸阳国际机场出发，乘坐高铁可直达兵马俑博物馆。",
+      "entities": ["西安咸阳国际机场", "兵马俑博物馆"],
+      "translation": "From Xi'an Xianyang International Airport, you can take the high-speed train directly to the Terracotta Warriors Museum."
+    }
+  ]
+}

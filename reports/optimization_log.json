@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "created": "2026-03-13",
+    "total": 5,
+    "direction": "zh2en"
+  },
+  "evaluation": {
+    "total_samples": 5,
+    "correct_translations": 5,
+    "accuracy": 100,
+    "errors": []
+  },
+  "optimization_log": {
+    "notes": "所有地名均已正确翻译，准确率为100%。无需进行进一步的Prompt优化。",
+    "suggestions": [
+      "继续使用当前的Prompt版本进行翻译。",
+      "定期进行翻译评测以确保持续的高质量翻译。"
+    ]
+  }
+}

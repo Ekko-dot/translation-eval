@@ -1,0 +1,135 @@
+{
+  "metadata": {
+    "category": "attractions",
+    "version": "1.0.0",
+    "updated": "2026-03-13",
+    "total": 100
+  },
+  "attractions": [
+    {"zh": "故宫博物院", "en": "The Palace Museum", "aliases_zh": ["故宫", "紫禁城"], "aliases_en": ["The Forbidden City", "Forbidden City", "Palace Museum"], "city_zh": "北京", "city_en": "Beijing", "type": "博物馆", "unesco": true},
+    {"zh": "天安门广场", "en": "Tian'anmen Square", "aliases_zh": ["天安门"], "aliases_en": ["Tiananmen Square"], "city_zh": "北京", "city_en": "Beijing", "type": "广场"},
+    {"zh": "长城", "en": "The Great Wall", "aliases_zh": ["万里长城"], "aliases_en": ["Great Wall of China"], "city_zh": "北京/河北等", "city_en": "Beijing/Hebei", "type": "古迹", "unesco": true},
+    {"zh": "颐和园", "en": "The Summer Palace", "aliases_zh": ["颐和园公园"], "aliases_en": ["Summer Palace"], "city_zh": "北京", "city_en": "Beijing", "type": "园林", "unesco": true},
+    {"zh": "天坛公园", "en": "The Temple of Heaven", "aliases_zh": ["天坛"], "aliases_en": ["Temple of Heaven"], "city_zh": "北京", "city_en": "Beijing", "type": "古迹", "unesco": true},
+    {"zh": "圆明园遗址公园", "en": "The Old Summer Palace", "aliases_zh": ["圆明园"], "aliases_en": ["Old Summer Palace", "Yuanmingyuan"], "city_zh": "北京", "city_en": "Beijing", "type": "遗址"},
+    {"zh": "北海公园", "en": "Beihai Park", "aliases_zh": [], "aliases_en": [], "city_zh": "北京", "city_en": "Beijing", "type": "园林"},
+    {"zh": "雍和宫", "en": "The Lama Temple", "aliases_zh": [], "aliases_en": ["Yonghe Temple", "Yonghegong"], "city_zh": "北京", "city_en": "Beijing", "type": "寺庙"},
+    {"zh": "国家体育场", "en": "National Stadium", "aliases_zh": ["鸟巢"], "aliases_en": ["Bird's Nest"], "city_zh": "北京", "city_en": "Beijing", "type": "地标"},
+    {"zh": "国家游泳中心", "en": "National Aquatics Center", "aliases_zh": ["水立方"], "aliases_en": ["Water Cube"], "city_zh": "北京", "city_en": "Beijing", "type": "地标"},
+
+    {"zh": "外滩", "en": "The Bund", "aliases_zh": ["外滩风景区"], "aliases_en": ["Bund", "Waitan"], "city_zh": "上海", "city_en": "Shanghai", "type": "景区"},
+    {"zh": "东方明珠广播电视塔", "en": "Oriental Pearl Tower", "aliases_zh": ["东方明珠", "东方明珠塔"], "aliases_en": [], "city_zh": "上海", "city_en": "Shanghai", "type": "地标"},
+    {"zh": "上海中心大厦", "en": "Shanghai Tower", "aliases_zh": ["上海中心"], "aliases_en": [], "city_zh": "上海", "city_en": "Shanghai", "type": "地标"},
+    {"zh": "上海环球金融中心", "en": "Shanghai World Financial Center", "aliases_zh": [], "aliases_en": [], "city_zh": "上海", "city_en": "Shanghai", "type": "地标"},
+    {"zh": "金茂大厦", "en": "Jin Mao Tower", "aliases_zh": [], "aliases_en": [], "city_zh": "上海", "city_en": "Shanghai", "type": "地标"},
+    {"zh": "豫园", "en": "Yu Garden", "aliases_zh": ["豫园商城"], "aliases_en": ["Yuyuan Garden"], "city_zh": "上海", "city_en": "Shanghai", "type": "园林"},
+    {"zh": "上海迪士尼乐园", "en": "Shanghai Disney Resort", "aliases_zh": ["上海迪士尼"], "aliases_en": ["Disneyland Shanghai"], "city_zh": "上海", "city_en": "Shanghai", "type": "主题乐园"},
+    {"zh": "南京路步行街", "en": "Nanjing Road Pedestrian Street", "aliases_zh": ["南京路"], "aliases_en": ["Nanjing Road", "Nanjing Lu"], "city_zh": "上海", "city_en": "Shanghai", "type": "街区"},
+    {"zh": "新天地", "en": "Xintiandi", "aliases_zh": [], "aliases_en": [], "city_zh": "上海", "city_en": "Shanghai", "type": "街区"},
+    {"zh": "田子坊", "en": "Tianzifang", "aliases_zh": [], "aliases_en": [], "city_zh": "上海", "city_en": "Shanghai", "type": "街区"},
+
+    {"zh": "西湖", "en": "West Lake", "aliases_zh": ["杭州西湖"], "aliases_en": ["Hangzhou West Lake"], "city_zh": "杭州", "city_en": "Hangzhou", "type": "景区", "unesco": true},
+    {"zh": "灵隐寺", "en": "Lingyin Temple", "aliases_zh": [], "aliases_en": ["Temple of Soul's Retreat"], "city_zh": "杭州", "city_en": "Hangzhou", "type": "寺庙"},
+    {"zh": "雷峰塔", "en": "Leifeng Pagoda", "aliases_zh": [], "aliases_en": [], "city_zh": "杭州", "city_en": "Hangzhou", "type": "古迹"},
+    {"zh": "断桥", "en": "Broken Bridge", "aliases_zh": [], "aliases_en": [], "city_zh": "杭州", "city_en": "Hangzhou", "type": "景点"},
+    {"zh": "千岛湖", "en": "Qiandao Lake", "aliases_zh": [], "aliases_en": ["Thousand Island Lake"], "city_zh": "杭州", "city_en": "Hangzhou", "type": "景区"},
+
+    {"zh": "秦始皇兵马俑博物馆", "en": "Emperor Qinshihuang's Mausoleum Site Museum", "aliases_zh": ["兵马俑", "秦兵马俑"], "aliases_en": ["Terracotta Warriors", "Terracotta Army"], "city_zh": "西安", "city_en": "Xi'an", "type": "博物馆", "unesco": true},
+    {"zh": "大雁塔", "en": "Big Wild Goose Pagoda", "aliases_zh": [], "aliases_en": ["Giant Wild Goose Pagoda"], "city_zh": "西安", "city_en": "Xi'an", "type": "古迹", "unesco": true},
+    {"zh": "小雁塔", "en": "Small Wild Goose Pagoda", "aliases_zh": [], "aliases_en": [], "city_zh": "西安", "city_en": "Xi'an", "type": "古迹", "unesco": true},
+    {"zh": "西安城墙", "en": "Xi'an City Wall", "aliases_zh": ["古城墙"], "aliases_en": ["Ancient City Wall"], "city_zh": "西安", "city_en": "Xi'an", "type": "古迹"},
+    {"zh": "华清宫", "en": "Huaqing Palace", "aliases_zh": ["华清池"], "aliases_en": ["Huaqing Pool"], "city_zh": "西安", "city_en": "Xi'an", "type": "古迹"},
+    {"zh": "钟楼", "en": "Bell Tower", "aliases_zh": ["西安钟楼"], "aliases_en": ["Xi'an Bell Tower"], "city_zh": "西安", "city_en": "Xi'an", "type": "古迹"},
+    {"zh": "鼓楼", "en": "Drum Tower", "aliases_zh": ["西安鼓楼"], "aliases_en": ["Xi'an Drum Tower"], "city_zh": "西安", "city_en": "Xi'an", "type": "古迹"},
+    {"zh": "回民街", "en": "Muslim Quarter", "aliases_zh": ["回民街美食街"], "aliases_en": ["Huimin Street"], "city_zh": "西安", "city_en": "Xi'an", "type": "街区"},
+
+    {"zh": "宽窄巷子", "en": "Kuanzhai Alley", "aliases_zh": ["宽窄巷"], "aliases_en": ["Wide and Narrow Alley"], "city_zh": "成都", "city_en": "Chengdu", "type": "街区"},
+    {"zh": "锦里古街", "en": "Jinli Ancient Street", "aliases_zh": ["锦里"], "aliases_en": ["Jinli Pedestrian Street"], "city_zh": "成都", "city_en": "Chengdu", "type": "街区"},
+    {"zh": "武侯祠", "en": "Wuhou Shrine", "aliases_zh": [], "aliases_en": ["Temple of Marquis Wu"], "city_zh": "成都", "city_en": "Chengdu", "type": "古迹"},
+    {"zh": "杜甫草堂", "en": "Du Fu Thatched Cottage", "aliases_zh": [], "aliases_en": [], "city_zh": "成都", "city_en": "Chengdu", "type": "古迹"},
+    {"zh": "成都大熊猫繁育研究基地", "en": "Chengdu Research Base of Giant Panda Breeding", "aliases_zh": ["熊猫基地", "大熊猫基地"], "aliases_en": ["Panda Base", "Giant Panda Breeding Base"], "city_zh": "成都", "city_en": "Chengdu", "type": "景区"},
+    {"zh": "青城山", "en": "Mount Qingcheng", "aliases_zh": [], "aliases_en": ["Qingcheng Mountain"], "city_zh": "成都", "city_en": "Chengdu", "type": "景区", "unesco": true},
+    {"zh": "都江堰", "en": "Dujiangyan Irrigation System", "aliases_zh": [], "aliases_en": ["Dujiangyan"], "city_zh": "成都", "city_en": "Chengdu", "type": "古迹", "unesco": true},
+
+    {"zh": "九寨沟", "en": "Jiuzhai Valley", "aliases_zh": ["九寨沟风景区"], "aliases_en": ["Jiuzhaigou Valley", "Jiuzhaigou"], "city_zh": "四川阿坝", "city_en": "Sichuan", "type": "景区", "unesco": true},
+    {"zh": "黄龙风景区", "en": "Huanglong Scenic Area", "aliases_zh": ["黄龙"], "aliases_en": [], "city_zh": "四川阿坝", "city_en": "Sichuan", "type": "景区", "unesco": true},
+    {"zh": "峨眉山", "en": "Mount Emei", "aliases_zh": [], "aliases_en": ["Emei Mountain"], "city_zh": "四川乐山", "city_en": "Sichuan", "type": "景区", "unesco": true},
+    {"zh": "乐山大佛", "en": "Leshan Giant Buddha", "aliases_zh": [], "aliases_en": [], "city_zh": "四川乐山", "city_en": "Sichuan", "type": "古迹", "unesco": true},
+
+    {"zh": "丽江古城", "en": "Old Town of Lijiang", "aliases_zh": ["丽江"], "aliases_en": ["Lijiang Old Town"], "city_zh": "云南丽江", "city_en": "Yunnan", "type": "古镇", "unesco": true},
+    {"zh": "玉龙雪山", "en": "Jade Dragon Snow Mountain", "aliases_zh": [], "aliases_en": [], "city_zh": "云南丽江", "city_en": "Yunnan", "type": "景区"},
+    {"zh": "大理古城", "en": "Dali Ancient City", "aliases_zh": ["大理"], "aliases_en": ["Old Town of Dali"], "city_zh": "云南大理", "city_en": "Yunnan", "type": "古镇"},
+    {"zh": "洱海", "en": "Erhai Lake", "aliases_zh": [], "aliases_en": [], "city_zh": "云南大理", "city_en": "Yunnan", "type": "景区"},
+    {"zh": "石林", "en": "Shilin Stone Forest", "aliases_zh": ["石林风景区"], "aliases_en": ["Stone Forest"], "city_zh": "云南昆明", "city_en": "Yunnan", "type": "景区", "unesco": true},
+    {"zh": "香格里拉", "en": "Shangri-La", "aliases_zh": [], "aliases_en": [], "city_zh": "云南迪庆", "city_en": "Yunnan", "type": "景区"},
+    {"zh": "西双版纳", "en": "Xishuangbanna", "aliases_zh": [], "aliases_en": [], "city_zh": "云南西双版纳", "city_en": "Yunnan", "type": "景区"},
+
+    {"zh": "桂林山水", "en": "Guilin Landscape", "aliases_zh": ["桂林"], "aliases_en": ["Guilin Scenery"], "city_zh": "广西桂林", "city_en": "Guangxi", "type": "景区"},
+    {"zh": "漓江", "en": "Li River", "aliases_zh": [], "aliases_en": [], "city_zh": "广西桂林", "city_en": "Guangxi", "type": "景区"},
+    {"zh": "阳朔", "en": "Yangshuo", "aliases_zh": [], "aliases_en": [], "city_zh": "广西桂林", "city_en": "Guangxi", "type": "景区"},
+    {"zh": "龙脊梯田", "en": "Longji Rice Terraces", "aliases_zh": ["龙胜梯田"], "aliases_en": ["Dragon's Backbone Rice Terraces"], "city_zh": "广西桂林", "city_en": "Guangxi", "type": "景区"},
+
+    {"zh": "张家界国家森林公园", "en": "Zhangjiajie National Forest Park", "aliases_zh": ["张家界"], "aliases_en": ["Zhangjiajie"], "city_zh": "湖南张家界", "city_en": "Hunan", "type": "景区", "unesco": true},
+    {"zh": "天门山", "en": "Tianmen Mountain", "aliases_zh": [], "aliases_en": [], "city_zh": "湖南张家界", "city_en": "Hunan", "type": "景区"},
+    {"zh": "凤凰古城", "en": "Phoenix Ancient Town", "aliases_zh": ["凤凰"], "aliases_en": ["Fenghuang Ancient Town"], "city_zh": "湖南湘西", "city_en": "Hunan", "type": "古镇"},
+
+    {"zh": "黄山", "en": "Mount Huangshan", "aliases_zh": [], "aliases_en": ["Yellow Mountain"], "city_zh": "安徽黄山", "city_en": "Anhui", "type": "景区", "unesco": true},
+    {"zh": "宏村", "en": "Hongcun Village", "aliases_zh": [], "aliases_en": [], "city_zh": "安徽黄山", "city_en": "Anhui", "type": "古镇", "unesco": true},
+    {"zh": "西递", "en": "Xidi Village", "aliases_zh": [], "aliases_en": [], "city_zh": "安徽黄山", "city_en": "Anhui", "type": "古镇", "unesco": true},
+
+    {"zh": "鼓浪屿", "en": "Gulangyu Island", "aliases_zh": [], "aliases_en": ["Kulangsu"], "city_zh": "福建厦门", "city_en": "Fujian", "type": "景区", "unesco": true},
+    {"zh": "南普陀寺", "en": "Nanputuo Temple", "aliases_zh": [], "aliases_en": [], "city_zh": "福建厦门", "city_en": "Fujian", "type": "寺庙"},
+    {"zh": "武夷山", "en": "Mount Wuyi", "aliases_zh": [], "aliases_en": ["Wuyi Mountain"], "city_zh": "福建武夷山", "city_en": "Fujian", "type": "景区", "unesco": true},
+    {"zh": "福建土楼", "en": "Fujian Tulou", "aliases_zh": ["土楼"], "aliases_en": [], "city_zh": "福建漳州/龙岩", "city_en": "Fujian", "type": "古迹", "unesco": true},
+
+    {"zh": "苏州园林", "en": "Classical Gardens of Suzhou", "aliases_zh": ["苏州古典园林"], "aliases_en": ["Suzhou Gardens"], "city_zh": "江苏苏州", "city_en": "Jiangsu", "type": "园林", "unesco": true},
+    {"zh": "拙政园", "en": "Humble Administrator's Garden", "aliases_zh": [], "aliases_en": [], "city_zh": "江苏苏州", "city_en": "Jiangsu", "type": "园林", "unesco": true},
+    {"zh": "留园", "en": "Lingering Garden", "aliases_zh": [], "aliases_en": [], "city_zh": "江苏苏州", "city_en": "Jiangsu", "type": "园林", "unesco": true},
+    {"zh": "周庄古镇", "en": "Zhouzhuang Water Town", "aliases_zh": ["周庄"], "aliases_en": [], "city_zh": "江苏苏州", "city_en": "Jiangsu", "type": "古镇"},
+    {"zh": "同里古镇", "en": "Tongli Water Town", "aliases_zh": ["同里"], "aliases_en": [], "city_zh": "江苏苏州", "city_en": "Jiangsu", "type": "古镇"},
+
+    {"zh": "中山陵", "en": "Sun Yat-sen Mausoleum", "aliases_zh": [], "aliases_en": [], "city_zh": "南京", "city_en": "Nanjing", "type": "古迹"},
+    {"zh": "夫子庙", "en": "Confucius Temple", "aliases_zh": [], "aliases_en": ["Fuzimiao"], "city_zh": "南京", "city_en": "Nanjing", "type": "古迹"},
+    {"zh": "秦淮河", "en": "Qinhuai River", "aliases_zh": [], "aliases_en": [], "city_zh": "南京", "city_en": "Nanjing", "type": "景区"},
+
+    {"zh": "广州塔", "en": "Canton Tower", "aliases_zh": ["小蛮腰"], "aliases_en": ["Guangzhou Tower"], "city_zh": "广州", "city_en": "Guangzhou", "type": "地标"},
+    {"zh": "长隆野生动物世界", "en": "Chimelong Safari Park", "aliases_zh": ["长隆野生动物园"], "aliases_en": [], "city_zh": "广州", "city_en": "Guangzhou", "type": "主题乐园"},
+    {"zh": "陈家祠", "en": "Chen Clan Ancestral Hall", "aliases_zh": [], "aliases_en": [], "city_zh": "广州", "city_en": "Guangzhou", "type": "古迹"},
+    {"zh": "沙面岛", "en": "Shamian Island", "aliases_zh": ["沙面"], "aliases_en": [], "city_zh": "广州", "city_en": "Guangzhou", "type": "景区"},
+
+    {"zh": "天涯海角", "en": "Tianya Haijiao", "aliases_zh": [], "aliases_en": ["Ends of the Earth"], "city_zh": "三亚", "city_en": "Sanya", "type": "景区"},
+    {"zh": "亚龙湾", "en": "Yalong Bay", "aliases_zh": [], "aliases_en": [], "city_zh": "三亚", "city_en": "Sanya", "type": "景区"},
+    {"zh": "蜈支洲岛", "en": "Wuzhizhou Island", "aliases_zh": [], "aliases_en": [], "city_zh": "三亚", "city_en": "Sanya", "type": "景区"},
+    {"zh": "南山文化旅游区", "en": "Nanshan Cultural Tourism Zone", "aliases_zh": ["南山寺"], "aliases_en": [], "city_zh": "三亚", "city_en": "Sanya", "type": "景区"},
+
+    {"zh": "布达拉宫", "en": "Potala Palace", "aliases_zh": [], "aliases_en": [], "city_zh": "拉萨", "city_en": "Lhasa", "type": "古迹", "unesco": true},
+    {"zh": "大昭寺", "en": "Jokhang Temple", "aliases_zh": [], "aliases_en": [], "city_zh": "拉萨", "city_en": "Lhasa", "type": "寺庙", "unesco": true},
+    {"zh": "纳木错", "en": "Namtso Lake", "aliases_zh": [], "aliases_en": [], "city_zh": "拉萨", "city_en": "Lhasa", "type": "景区"},
+    {"zh": "珠穆朗玛峰", "en": "Mount Everest", "aliases_zh": ["珠峰"], "aliases_en": ["Qomolangma"], "city_zh": "西藏日喀则", "city_en": "Tibet", "type": "景区"},
+
+    {"zh": "莫高窟", "en": "Mogao Caves", "aliases_zh": ["敦煌莫高窟", "千佛洞"], "aliases_en": ["Dunhuang Caves"], "city_zh": "甘肃敦煌", "city_en": "Gansu", "type": "古迹", "unesco": true},
+    {"zh": "鸣沙山月牙泉", "en": "Mingsha Mountain and Crescent Spring", "aliases_zh": ["月牙泉"], "aliases_en": ["Singing Sand Dunes"], "city_zh": "甘肃敦煌", "city_en": "Gansu", "type": "景区"},
+
+    {"zh": "哈尔滨冰雪大世界", "en": "Harbin Ice and Snow World", "aliases_zh": ["冰雪大世界"], "aliases_en": [], "city_zh": "哈尔滨", "city_en": "Harbin", "type": "景区"},
+    {"zh": "中央大街", "en": "Central Street", "aliases_zh": [], "aliases_en": ["Zhongyang Pedestrian Street"], "city_zh": "哈尔滨", "city_en": "Harbin", "type": "街区"},
+    {"zh": "圣索菲亚教堂", "en": "Saint Sophia Cathedral", "aliases_zh": ["索菲亚教堂"], "aliases_en": [], "city_zh": "哈尔滨", "city_en": "Harbin", "type": "古迹"},
+
+    {"zh": "呼伦贝尔大草原", "en": "Hulunbuir Grassland", "aliases_zh": ["呼伦贝尔草原"], "aliases_en": [], "city_zh": "内蒙古呼伦贝尔", "city_en": "Inner Mongolia", "type": "景区"},
+
+    {"zh": "台北101", "en": "Taipei 101", "aliases_zh": ["台北101大楼"], "aliases_en": [], "city_zh": "台北", "city_en": "Taipei", "type": "地标"},
+    {"zh": "台北故宫博物院", "en": "National Palace Museum", "aliases_zh": ["台北故宫"], "aliases_en": [], "city_zh": "台北", "city_en": "Taipei", "type": "博物馆"},
+    {"zh": "日月潭", "en": "Sun Moon Lake", "aliases_zh": [], "aliases_en": [], "city_zh": "台湾南投", "city_en": "Taiwan", "type": "景区"},
+    {"zh": "阿里山", "en": "Alishan", "aliases_zh": [], "aliases_en": ["Ali Mountain"], "city_zh": "台湾嘉义", "city_en": "Taiwan", "type": "景区"},
+    {"zh": "垦丁国家公园", "en": "Kenting National Park", "aliases_zh": ["垦丁"], "aliases_en": [], "city_zh": "台湾屏东", "city_en": "Taiwan", "type": "景区"},
+    {"zh": "九份老街", "en": "Jiufen Old Street", "aliases_zh": ["九份"], "aliases_en": [], "city_zh": "台湾新北", "city_en": "Taiwan", "type": "街区"},
+
+    {"zh": "维多利亚港", "en": "Victoria Harbour", "aliases_zh": [], "aliases_en": [], "city_zh": "香港", "city_en": "Hong Kong", "type": "景区"},
+    {"zh": "太平山顶", "en": "The Peak", "aliases_zh": ["山顶"], "aliases_en": ["Victoria Peak"], "city_zh": "香港", "city_en": "Hong Kong", "type": "景区"},
+    {"zh": "星光大道", "en": "Avenue of Stars", "aliases_zh": [], "aliases_en": [], "city_zh": "香港", "city_en": "Hong Kong", "type": "景区"},
+    {"zh": "香港迪士尼乐园", "en": "Hong Kong Disneyland", "aliases_zh": ["香港迪士尼"], "aliases_en": [], "city_zh": "香港", "city_en": "Hong Kong", "type": "主题乐园"},
+    {"zh": "海洋公园", "en": "Ocean Park", "aliases_zh": ["香港海洋公园"], "aliases_en": [], "city_zh": "香港", "city_en": "Hong Kong", "type": "主题乐园"},
+
+    {"zh": "大三巴牌坊", "en": "Ruins of St. Paul's", "aliases_zh": ["大三巴"], "aliases_en": [], "city_zh": "澳门", "city_en": "Macau", "type": "古迹", "unesco": true},
+    {"zh": "威尼斯人度假村", "en": "The Venetian Macao", "aliases_zh": ["澳门威尼斯人"], "aliases_en": [], "city_zh": "澳门", "city_en": "Macau", "type": "酒店/景区"}
+  ]
+}
