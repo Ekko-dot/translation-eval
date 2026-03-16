@@ -1,0 +1,287 @@
+============================================================
+地名翻译评测报告
+============================================================
+
+总样本数: 50
+平均准确率: 43.00%
+
+错误类型分布:
+  - ACCEPTABLE: 3
+  - CORRECT: 23
+  - MISSING_ENTITY: 46
+
+------------------------------------------------------------
+详细结果:
+------------------------------------------------------------
+
+[001] 准确率: 0.00%
+原文: 酒店距离深圳宝安国际机场仅30分钟车程，提供免费接送机服务。
+译文: The hotel is a 30-minute drive from Shenzhen Bao An International Airport and offers a free shuttle service.
+  ⚠️ 深圳宝安国际机场 → None (标准: Shenzhen Bao'an International Airport) [MISSING_ENTITY]
+
+[002] 准确率: 100.00%
+原文: 从北京首都国际机场乘坐机场快轨可直达市中心。
+译文: The city centre can be reached directly from Beijing Capital International Airport via the airport expressway.
+  ✓ 北京首都国际机场 → Beijing Capital International Airport
+
+[003] 准确率: 0.00%
+原文: 酒店位于外滩附近，步行5分钟即可到达东方明珠塔。
+译文: The hotel is located near the main entrance, a 5-minute walk from the East Pearl Tower.
+  ⚠️ 东方明珠塔 → None (标准: Oriental Pearl Tower) [MISSING_ENTITY]
+  ⚠️ 东方明珠 → None (标准: Oriental Pearl Tower) [MISSING_ENTITY]
+  ⚠️ 外滩 → None (标准: The Bund) [MISSING_ENTITY]
+
+[004] 准确率: 100.00%
+原文: 故宫博物院每天接待数万名游客，建议提前网上预约。
+译文: The Palace Museum welcomes tens of thousands of visitors a day and recommends making online reservations in advance.
+  ✓ 故宫博物院 → The Palace Museum
+  ✓ 故宫 → The Palace Museum
+
+[005] 准确率: 0.00%
+原文: 从西安咸阳国际机场出发，乘坐高铁可直达兵马俑博物馆。
+译文: From Xi'an Yang International Airport, you can take the high-speed train directly to the Warrior Horse Museum.
+  ⚠️ 西安咸阳国际机场 → None (标准: Xi'an Xianyang International Airport) [MISSING_ENTITY]
+  ⚠️ 兵马俑 → None (标准: Emperor Qinshihuang's Mausoleum Site Museum) [MISSING_ENTITY]
+
+[006] 准确率: 0.00%
+原文: 九寨沟风景区以其独特的自然风光闻名于世。
+译文: The area is known for its unique natural scenery.
+  ⚠️ 九寨沟风景区 → None (标准: Jiuzhai Valley) [MISSING_ENTITY]
+  ⚠️ 九寨沟 → None (标准: Jiuzhai Valley) [MISSING_ENTITY]
+
+[007] 准确率: 0.00%
+原文: 酒店毗邻广州白云国际机场，是商务旅客的理想选择。
+译文: The hotel is located adjacent to Guangzhou White Cloud International Airport and is an ideal choice for business travellers.
+  ⚠️ 广州白云国际机场 → None (标准: Guangzhou Baiyun International Airport) [MISSING_ENTITY]
+
+[008] 准确率: 50.00%
+原文: 天安门广场是世界上最大的城市广场之一。
+译文: Tiananmen Square is one of the largest urban squares in the world.
+  ⚠️ 天安门广场 → tiananmen square (标准: Tian'anmen Square) [ACCEPTABLE]
+  ⚠️ 天安门 → None (标准: Tian'anmen Square) [MISSING_ENTITY]
+
+[009] 准确率: 0.00%
+原文: 从成都双流国际机场到熊猫基地约需40分钟车程。
+译文: It takes about 40 minutes by car from Chengdu Du-Teng International Airport to Panda Base.
+  ⚠️ 成都双流国际机场 → None (标准: Chengdu Shuangliu International Airport) [MISSING_ENTITY]
+  ⚠️ 熊猫基地 → None (标准: Chengdu Research Base of Giant Panda Breeding) [MISSING_ENTITY]
+
+[010] 准确率: 100.00%
+原文: 长城是中华民族的象征，每年吸引大量游客前来参观。
+译文: The Great Wall is a symbol of the Chinese nation and attracts a large number of tourists every year.
+  ✓ 长城 → The Great Wall
+
+[011] 准确率: 100.00%
+原文: 上海浦东国际机场是中国重要的国际航空枢纽。
+译文: Shanghai Pudong International Airport is an important international aviation hub in China.
+  ✓ 上海浦东国际机场 → Shanghai Pudong International Airport
+
+[012] 准确率: 0.00%
+原文: 颐和园是保存最完整的皇家园林之一。
+译文: It is one of the most complete preserved royal gardens.
+  ⚠️ 颐和园 → None (标准: The Summer Palace) [MISSING_ENTITY]
+
+[013] 准确率: 0.00%
+原文: 从东京成田国际机场乘坐成田特快可直达东京市区。
+译文: From Tokyo Chengada International Airport, you can reach Tokyo city centre directly by taking the Chengada Express.
+  ⚠️ 东京成田国际机场 → None (标准: Narita International Airport) [MISSING_ENTITY]
+
+[014] 准确率: 0.00%
+原文: 新加坡樟宜国际机场连续多年被评为全球最佳机场。
+译文: Singapore Xi'an International Airport has been named the best airport in the world for many years in a row.
+  ⚠️ 新加坡樟宜国际机场 → None (标准: Singapore Changi Airport) [MISSING_ENTITY]
+
+[015] 准确率: 0.00%
+原文: 宽窄巷子是成都最具特色的历史文化街区之一。
+译文: It is one of the most distinctive historical and cultural districts in Chengdu.
+  ⚠️ 宽窄巷子 → None (标准: Kuanzhai Alley) [MISSING_ENTITY]
+  ⚠️ 宽窄巷 → None (标准: Kuanzhai Alley) [MISSING_ENTITY]
+
+[016] 准确率: 100.00%
+原文: 从香港国际机场乘坐机场快线可直达中环。
+译文: From Hong Kong International Airport, the airport can be reached directly via the airport's hotline.
+  ✓ 香港国际机场 → Hong Kong International Airport
+
+[017] 准确率: 100.00%
+原文: 西湖是杭州最著名的旅游景点，被列入世界遗产名录。
+译文: West Lake is the most famous tourist attraction in Hangzhou and is included in the World Heritage List.
+  ✓ 西湖 → West Lake
+
+[018] 准确率: 100.00%
+原文: 从首尔仁川国际机场到首尔市区约需1小时。
+译文: It takes about an hour from Seoul Incheon International Airport to Seoul city centre.
+  ✓ 首尔仁川国际机场 → Incheon International Airport
+
+[019] 准确率: 0.00%
+原文: 天坛公园是明清两代皇帝祭天的场所。
+译文: Temple Park is the place where two generations of emperors celebrated heaven.
+  ⚠️ 天坛公园 → None (标准: The Temple of Heaven) [MISSING_ENTITY]
+  ⚠️ 天坛 → None (标准: The Temple of Heaven) [MISSING_ENTITY]
+
+[020] 准确率: 100.00%
+原文: 从伦敦希思罗机场乘坐地铁可直达市中心。
+译文: The city centre can be reached directly from London Heathrow Airport via the subway.
+  ✓ 伦敦希思罗机场 → London Heathrow Airport
+  ✓ 希思罗机场 → London Heathrow Airport
+  ✓ 伦敦希思罗 → London Heathrow Airport
+
+[021] 准确率: 0.00%
+原文: 丽江古城是中国保存最完好的古城之一。
+译文: The ancient city of Lijiang is one of the best preserved ancient cities in China.
+  ⚠️ 丽江古城 → None (标准: Old Town of Lijiang) [MISSING_ENTITY]
+  ⚠️ 丽江 → None (标准: Old Town of Lijiang) [MISSING_ENTITY]
+
+[022] 准确率: 0.00%
+原文: 从巴黎戴高乐机场乘坐RER B线可直达巴黎市区。
+译文: From Paris' De Gaulle Airport, the RER B can be reached directly from the Paris metropolitan area.
+  ⚠️ 戴高乐机场 → None (标准: Paris Charles de Gaulle Airport) [MISSING_ENTITY]
+  ⚠️ 巴黎戴高乐 → None (标准: Paris Charles de Gaulle Airport) [MISSING_ENTITY]
+
+[023] 准确率: 0.00%
+原文: 外滩的夜景是上海最迷人的风景之一。
+译文: The outdoor nightlife is one of the most fascinating sights in Shanghai.
+  ⚠️ 外滩 → None (标准: The Bund) [MISSING_ENTITY]
+
+[024] 准确率: 100.00%
+原文: 从纽约肯尼迪国际机场乘坐机场快线可直达曼哈顿。
+译文: From Kennedy International Airport in New York City, you can take the airport express line directly to Manhattan.
+
+[025] 准确率: 0.00%
+原文: 布达拉宫是西藏最宏伟的建筑之一。
+译文: The Buda Palace is one of the most magnificent buildings in Tibet.
+  ⚠️ 布达拉宫 → None (标准: Potala Palace) [MISSING_ENTITY]
+
+[026] 准确率: 0.00%
+原文: 从悉尼机场乘坐火车可直达市中心。
+译文: The city centre can be reached directly by train from Sydney Airport.
+  ⚠️ 悉尼机场 → None (标准: Sydney Kingsford Smith Airport) [MISSING_ENTITY]
+
+[027] 准确率: 0.00%
+原文: 桂林山水甲天下，漓江风光尤为迷人。
+译文: In the mountainous jungle, the winds of the Yangtze River are especially charming.
+  ⚠️ 桂林山水 → None (标准: Guilin Landscape) [MISSING_ENTITY]
+  ⚠️ 桂林 → None (标准: Guilin Landscape) [MISSING_ENTITY]
+  ⚠️ 漓江 → None (标准: Li River) [MISSING_ENTITY]
+
+[028] 准确率: 100.00%
+原文: 从迪拜国际机场到市区约需20分钟车程。
+译文: It takes about 20 minutes by car from Dubai International Airport to the city centre.
+  ✓ 迪拜国际机场 → Dubai International Airport
+
+[029] 准确率: 100.00%
+原文: 黄山以其奇松、怪石、云海、温泉闻名于世。
+译文: Yellow Mountain is renowned for its pearls, strange stones, sea clouds and hot springs.
+  ⚠️ 黄山 → yellow mountain (标准: Mount Huangshan) [ACCEPTABLE]
+
+[030] 准确率: 100.00%
+原文: 从东京羽田机场到东京市区仅需30分钟。
+译文: It is only 30 minutes from Tokyo Haneda Airport to the Tokyo metropolitan area.
+  ✓ 东京羽田机场 → Tokyo Haneda Airport
+  ✓ 羽田机场 → Tokyo Haneda Airport
+  ✓ 东京羽田 → Tokyo Haneda Airport
+
+[031] 准确率: 0.00%
+原文: 鼓浪屿是厦门最著名的旅游景点，被誉为海上花园。
+译文: Drum Wave Island is the most famous tourist attraction and is known as the Sea Garden.
+  ⚠️ 鼓浪屿 → None (标准: Gulangyu Island) [MISSING_ENTITY]
+
+[032] 准确率: 100.00%
+原文: 从法兰克福机场乘坐高铁可直达德国各大城市。
+译文: From Frankfurt Airport, high-speed trains can reach all major German cities.
+  ✓ 法兰克福机场 → Frankfurt Airport
+
+[033] 准确率: 0.00%
+原文: 莫高窟是世界上现存规模最大的佛教艺术宝库。
+译文: It is the largest existing Buddhist art treasury in the world.
+  ⚠️ 莫高窟 → None (标准: Mogao Caves) [MISSING_ENTITY]
+
+[034] 准确率: 0.00%
+原文: 从阿姆斯特丹史基浦机场乘坐火车可直达市中心。
+译文: The city centre can be reached directly by train from Amsterdam Skipp Airport.
+  ⚠️ 阿姆斯特丹史基浦机场 → None (标准: Amsterdam Airport Schiphol) [MISSING_ENTITY]
+  ⚠️ 史基浦机场 → None (标准: Amsterdam Airport Schiphol) [MISSING_ENTITY]
+
+[035] 准确率: 0.00%
+原文: 张家界国家森林公园是电影《阿凡达》的取景地。
+译文: Zhangjiang National Forest Park is the setting for the film Avondale.
+  ⚠️ 张家界国家森林公园 → None (标准: Zhangjiajie National Forest Park) [MISSING_ENTITY]
+  ⚠️ 张家界 → None (标准: Zhangjiajie National Forest Park) [MISSING_ENTITY]
+
+[036] 准确率: 100.00%
+原文: 从洛杉矶国际机场到好莱坞约需40分钟。
+译文: It takes about 40 minutes from Los Angeles International Airport to Hollywood.
+  ✓ 洛杉矶国际机场 → Los Angeles International Airport
+
+[037] 准确率: 0.00%
+原文: 凤凰古城是湘西最具特色的古镇之一。
+译文: The ancient city of Yangon is one of the most distinctive ancient cities in China.
+  ⚠️ 凤凰古城 → None (标准: Phoenix Ancient Town) [MISSING_ENTITY]
+  ⚠️ 凤凰 → None (标准: Phoenix Ancient Town) [MISSING_ENTITY]
+
+[038] 准确率: 100.00%
+原文: 从温哥华国际机场乘坐天车可直达市中心。
+译文: From Vancouver International Airport, the city centre can be reached directly by train.
+  ✓ 温哥华国际机场 → Vancouver International Airport
+
+[039] 准确率: 0.00%
+原文: 三亚的天涯海角是情侣们向往的浪漫之地。
+译文: The southern coast of Asia is a romantic destination for couples.
+  ⚠️ 天涯海角 → None (标准: Tianya Haijiao) [MISSING_ENTITY]
+
+[040] 准确率: 100.00%
+原文: 从旧金山国际机场乘坐BART可直达市区。
+译文: From San Francisco International Airport, BART can be reached directly from the downtown area.
+  ✓ 旧金山国际机场 → San Francisco International Airport
+
+[041] 准确率: 100.00%
+原文: 苏州园林是中国古典园林的代表。
+译文: Suzhou Gardens is a representative of Chinese classical gardens.
+  ⚠️ 苏州园林 → suzhou gardens (标准: Classical Gardens of Suzhou) [ACCEPTABLE]
+
+[042] 准确率: 0.00%
+原文: 从曼谷素万那普机场乘坐机场快线可直达市区。
+译文: The city centre can be reached directly from Bangkok Sunanpur Airport via the airport's expressway.
+  ⚠️ 素万那普机场 → None (标准: Suvarnabhumi Airport) [MISSING_ENTITY]
+
+[043] 准确率: 0.00%
+原文: 哈尔滨冰雪大世界是世界上最大的冰雪主题乐园。
+译文: The Harlem Ice World is the world's largest ice-snow theme park.
+  ⚠️ 哈尔滨冰雪大世界 → None (标准: Harbin Ice and Snow World) [MISSING_ENTITY]
+  ⚠️ 冰雪大世界 → None (标准: Harbin Ice and Snow World) [MISSING_ENTITY]
+
+[044] 准确率: 100.00%
+原文: 从吉隆坡国际机场乘坐机场快线可直达市中心。
+译文: The city centre can be reached directly from Kuala Lumpur International Airport via the airport express line.
+  ✓ 吉隆坡国际机场 → Kuala Lumpur International Airport
+
+[045] 准确率: 100.00%
+原文: 台北101曾是世界上最高的建筑。
+译文: Taipei 101 was once the tallest building in the world.
+  ✓ 台北101 → Taipei 101
+
+[046] 准确率: 100.00%
+原文: 从多哈哈马德国际机场到多哈市中心约需20分钟。
+译文: It takes about 20 minutes from Doha Hamad International Airport to Doha city centre.
+  ✓ 多哈哈马德国际机场 → Hamad International Airport
+
+[047] 准确率: 0.00%
+原文: 维多利亚港的夜景是香港最著名的景观之一。
+译文: The night view of Port Victoria is one of the most famous sights in Hong Kong.
+  ⚠️ 维多利亚港 → None (标准: Victoria Harbour) [MISSING_ENTITY]
+
+[048] 准确率: 0.00%
+原文: 从新加坡樟宜机场到市区约需20分钟车程。
+译文: It takes about 20 minutes by car from Singapore's Xi'an Airport to the city centre.
+  ⚠️ 新加坡樟宜机场 → None (标准: Singapore Changi Airport) [MISSING_ENTITY]
+  ⚠️ 樟宜机场 → None (标准: Singapore Changi Airport) [MISSING_ENTITY]
+
+[049] 准确率: 0.00%
+原文: 大三巴牌坊是澳门最具标志性的建筑。
+译文: The Grand Saloon is the most iconic building in Macau.
+  ⚠️ 大三巴牌坊 → None (标准: Ruins of St. Paul's) [MISSING_ENTITY]
+  ⚠️ 大三巴 → None (标准: Ruins of St. Paul's) [MISSING_ENTITY]
+
+[050] 准确率: 100.00%
+原文: 从北京大兴国际机场乘坐机场快线可直达市区。
+译文: The city centre can be reached directly from Beijing Daxing International Airport via the airport express line.
+  ✓ 北京大兴国际机场 → Beijing Daxing International Airport
