@@ -1,0 +1,38 @@
+{
+  "history": [
+    {
+      "version": "v0.1",
+      "timestamp": "2026-03-16T15:14:53Z",
+      "accuracy": 0.8367,
+      "model": "qwen-plus",
+      "main_issues": [
+        "MISSING_ENTITY",
+        "ACCEPTABLE"
+      ],
+      "error_distribution": {
+        "CORRECT": 53,
+        "MISSING_ENTITY": 15,
+        "ACCEPTABLE": 4
+      }
+    },
+    {
+      "version": "v0.2",
+      "timestamp": "2026-03-16T15:35:00Z",
+      "accuracy": 0.9766666666666666,
+      "model": "qwen-plus",
+      "changes": [
+        "添加'必须识别并翻译原文中的所有地名实体'强制指令",
+        "增加10+个景点类地名few-shot示例对照表",
+        "添加常见错误警示（禁止直译）",
+        "扩充标准译名对照表"
+      ],
+      "improvement": "+14.00%",
+      "target_accuracy": 0.9,
+      "error_distribution": {
+        "CORRECT": 68,
+        "MISSING_ENTITY": 3,
+        "ACCEPTABLE": 1
+      }
+    }
+  ]
+}
