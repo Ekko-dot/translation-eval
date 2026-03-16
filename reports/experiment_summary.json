@@ -1,0 +1,56 @@
+{
+  "timestamp": "2026-03-16T15:15:23.283696",
+  "models_tested": 5,
+  "results": [
+    {
+      "model": "qwen-mt-plus",
+      "accuracy": 0.8266666666666665,
+      "avg_latency": 0.4262339925765991,
+      "error_distribution": {
+        "MISSING_ENTITY": 15,
+        "CORRECT": 51,
+        "ACCEPTABLE": 6
+      }
+    },
+    {
+      "model": "qwen-mt-lite",
+      "accuracy": 0.76,
+      "avg_latency": 0.3563426685333252,
+      "error_distribution": {
+        "MISSING_ENTITY": 20,
+        "CORRECT": 45,
+        "ACCEPTABLE": 7
+      }
+    },
+    {
+      "model": "qwen-max",
+      "accuracy": 0.82,
+      "avg_latency": 2.310881009101868,
+      "error_distribution": {
+        "CORRECT": 55,
+        "MISSING_ENTITY": 15,
+        "ACCEPTABLE": 2
+      }
+    },
+    {
+      "model": "qwen-plus",
+      "accuracy": 0.8366666666666666,
+      "avg_latency": 0.9949888658523559,
+      "error_distribution": {
+        "CORRECT": 53,
+        "MISSING_ENTITY": 15,
+        "ACCEPTABLE": 4
+      }
+    },
+    {
+      "model": "qwen-turbo",
+      "accuracy": 0.8266666666666665,
+      "avg_latency": 0.6037624740600586,
+      "error_distribution": {
+        "CORRECT": 52,
+        "ACCEPTABLE": 6,
+        "MISSING_ENTITY": 14
+      }
+    }
+  ]
+}

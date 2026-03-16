@@ -1,0 +1,920 @@
+{
+  "model": "qwen-plus",
+  "model_description": "Qwen Plus (通用推荐模型)",
+  "model_type": "general",
+  "timestamp": "2026-03-16T15:14:53.083834",
+  "total_samples": 50,
+  "total_entities": 72,
+  "accuracy": 0.8366666666666666,
+  "avg_latency": 0.9949888658523559,
+  "error_distribution": {
+    "CORRECT": 53,
+    "MISSING_ENTITY": 15,
+    "ACCEPTABLE": 4
+  },
+  "results": [
+    {
+      "id": "001",
+      "source": "酒店距离深圳宝安国际机场仅30分钟车程，提供免费接送机服务。",
+      "translation": "The hotel is only a 30-minute drive from Shenzhen Bao'an International Airport and offers complimentary airport transfer service.",
+      "accuracy": 1.0,
+      "details": [
+        {
+          "zh": "深圳宝安国际机场",
+          "en_found": "Shenzhen Bao'an International Airport",
+          "en_standard": "Shenzhen Bao'an International Airport",
+          "status": "exact_match",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "002",
+      "source": "从北京首都国际机场乘坐机场快轨可直达市中心。",
+      "translation": "Take the Airport Express from Beijing Capital International Airport to reach the city center directly.",
+      "accuracy": 1.0,
+      "details": [
+        {
+          "zh": "北京首都国际机场",
+          "en_found": "Beijing Capital International Airport",
+          "en_standard": "Beijing Capital International Airport",
+          "status": "exact_match",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "003",
+      "source": "酒店位于外滩附近，步行5分钟即可到达东方明珠塔。",
+      "translation": "The hotel is located near The Bund and is a 5-minute walk from the Oriental Pearl Tower.",
+      "accuracy": 1.0,
+      "details": [
+        {
+          "zh": "东方明珠塔",
+          "en_found": "Oriental Pearl Tower",
+          "en_standard": "Oriental Pearl Tower",
+          "status": "exact_match",
+          "score": 1.0
+        },
+        {
+          "zh": "东方明珠",
+          "en_found": "Oriental Pearl Tower",
+          "en_standard": "Oriental Pearl Tower",
+          "status": "exact_match",
+          "score": 1.0
+        },
+        {
+          "zh": "外滩",
+          "en_found": "The Bund",
+          "en_standard": "The Bund",
+          "status": "exact_match",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "004",
+      "source": "故宫博物院每天接待数万名游客，建议提前网上预约。",
+      "translation": "The Palace Museum receives tens of thousands of visitors daily; advance online reservation is recommended.",
+      "accuracy": 1.0,
+      "details": [
+        {
+          "zh": "故宫博物院",
+          "en_found": "The Palace Museum",
+          "en_standard": "The Palace Museum",
+          "status": "exact_match",
+          "score": 1.0
+        },
+        {
+          "zh": "故宫",
+          "en_found": "The Palace Museum",
+          "en_standard": "The Palace Museum",
+          "status": "exact_match",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "005",
+      "source": "从西安咸阳国际机场出发，乘坐高铁可直达兵马俑博物馆。",
+      "translation": "Departing from Xi'an Xianyang International Airport, you can take a high-speed train directly to the Terracotta Warriors Museum.",
+      "accuracy": 0.5,
+      "details": [
+        {
+          "zh": "西安咸阳国际机场",
+          "en_found": "Xi'an Xianyang International Airport",
+          "en_standard": "Xi'an Xianyang International Airport",
+          "status": "exact_match",
+          "score": 1.0
+        },
+        {
+          "zh": "兵马俑",
+          "en_found": null,
+          "en_standard": "Emperor Qinshihuang's Mausoleum Site Museum",
+          "status": "missing",
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "id": "006",
+      "source": "九寨沟风景区以其独特的自然风光闻名于世。",
+      "translation": "Jiuzhaigou Scenic Area is world-renowned for its unique natural landscapes.",
+      "accuracy": 0.5,
+      "details": [
+        {
+          "zh": "九寨沟风景区",
+          "en_found": null,
+          "en_standard": "Jiuzhai Valley",
+          "status": "missing",
+          "score": 0.0
+        },
+        {
+          "zh": "九寨沟",
+          "en_found": "jiuzhaigou",
+          "en_standard": "Jiuzhai Valley",
+          "status": "alias_match",
+          "score": 0.9
+        }
+      ]
+    },
+    {
+      "id": "007",
+      "source": "酒店毗邻广州白云国际机场，是商务旅客的理想选择。",
+      "translation": "The hotel is adjacent to Guangzhou Baiyun International Airport, making it an ideal choice for business travelers.",
+      "accuracy": 1.0,
+      "details": [
+        {
+          "zh": "广州白云国际机场",
+          "en_found": "Guangzhou Baiyun International Airport",
+          "en_standard": "Guangzhou Baiyun International Airport",
+          "status": "exact_match",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "008",
+      "source": "天安门广场是世界上最大的城市广场之一。",
+      "translation": "Tian’anmen Square is one of the largest city squares in the world.",
+      "accuracy": 0.0,
+      "details": [
+        {
+          "zh": "天安门广场",
+          "en_found": null,
+          "en_standard": "Tian'anmen Square",
+          "status": "missing",
+          "score": 0.0
+        },
+        {
+          "zh": "天安门",
+          "en_found": null,
+          "en_standard": "Tian'anmen Square",
+          "status": "missing",
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "id": "009",
+      "source": "从成都双流国际机场到熊猫基地约需40分钟车程。",
+      "translation": "It takes approximately 40 minutes by car from Chengdu Shuangliu International Airport to the Giant Panda Base.",
+      "accuracy": 0.5,
+      "details": [
+        {
+          "zh": "成都双流国际机场",
+          "en_found": "Chengdu Shuangliu International Airport",
+          "en_standard": "Chengdu Shuangliu International Airport",
+          "status": "exact_match",
+          "score": 1.0
+        },
+        {
+          "zh": "熊猫基地",
+          "en_found": null,
+          "en_standard": "Chengdu Research Base of Giant Panda Breeding",
+          "status": "missing",
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "id": "010",
+      "source": "长城是中华民族的象征，每年吸引大量游客前来参观。",
+      "translation": "The Great Wall is a symbol of the Chinese nation and attracts a large number of tourists each year.",
+      "accuracy": 1.0,
+      "details": [
+        {
+          "zh": "长城",
+          "en_found": "The Great Wall",
+          "en_standard": "The Great Wall",
+          "status": "exact_match",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "011",
+      "source": "上海浦东国际机场是中国重要的国际航空枢纽。",
+      "translation": "Shanghai Pudong International Airport is a major international aviation hub in China.",
+      "accuracy": 1.0,
+      "details": [
+        {
+          "zh": "上海浦东国际机场",
+          "en_found": "Shanghai Pudong International Airport",
+          "en_standard": "Shanghai Pudong International Airport",
+          "status": "exact_match",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "012",
+      "source": "颐和园是保存最完整的皇家园林之一。",
+      "translation": "The Summer Palace is one of the best-preserved imperial gardens.",
+      "accuracy": 1.0,
+      "details": [
+        {
+          "zh": "颐和园",
+          "en_found": "The Summer Palace",
+          "en_standard": "The Summer Palace",
+          "status": "exact_match",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "013",
+      "source": "从东京成田国际机场乘坐成田特快可直达东京市区。",
+      "translation": "Take the Narita Express from Narita International Airport, Tokyo, to reach downtown Tokyo directly.",
+      "accuracy": 1.0,
+      "details": [
+        {
+          "zh": "东京成田国际机场",
+          "en_found": "Narita International Airport",
+          "en_standard": "Narita International Airport",
+          "status": "exact_match",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "014",
+      "source": "新加坡樟宜国际机场连续多年被评为全球最佳机场。",
+      "translation": "Singapore Changi International Airport has been named the world’s best airport for multiple consecutive years.",
+      "accuracy": 0.0,
+      "details": [
+        {
+          "zh": "新加坡樟宜国际机场",
+          "en_found": null,
+          "en_standard": "Singapore Changi Airport",
+          "status": "missing",
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "id": "015",
+      "source": "宽窄巷子是成都最具特色的历史文化街区之一。",
+      "translation": "Kuanzhai Alley is one of Chengdu’s most distinctive historic and cultural districts.",
+      "accuracy": 1.0,
+      "details": [
+        {
+          "zh": "宽窄巷子",
+          "en_found": "Kuanzhai Alley",
+          "en_standard": "Kuanzhai Alley",
+          "status": "exact_match",
+          "score": 1.0
+        },
+        {
+          "zh": "宽窄巷",
+          "en_found": "Kuanzhai Alley",
+          "en_standard": "Kuanzhai Alley",
+          "status": "exact_match",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "016",
+      "source": "从香港国际机场乘坐机场快线可直达中环。",
+      "translation": "Take the Airport Express from Hong Kong International Airport to Central directly.",
+      "accuracy": 1.0,
+      "details": [
+        {
+          "zh": "香港国际机场",
+          "en_found": "Hong Kong International Airport",
+          "en_standard": "Hong Kong International Airport",
+          "status": "exact_match",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "017",
+      "source": "西湖是杭州最著名的旅游景点，被列入世界遗产名录。",
+      "translation": "West Lake is Hangzhou’s most famous tourist attraction and is inscribed on the UNESCO World Heritage List.",
+      "accuracy": 1.0,
+      "details": [
+        {
+          "zh": "西湖",
+          "en_found": "West Lake",
+          "en_standard": "West Lake",
+          "status": "exact_match",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "018",
+      "source": "从首尔仁川国际机场到首尔市区约需1小时。",
+      "translation": "It takes approximately one hour to travel from Incheon International Airport in Seoul to downtown Seoul.",
+      "accuracy": 1.0,
+      "details": [
+        {
+          "zh": "首尔仁川国际机场",
+          "en_found": "Incheon International Airport",
+          "en_standard": "Incheon International Airport",
+          "status": "exact_match",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "019",
+      "source": "天坛公园是明清两代皇帝祭天的场所。",
+      "translation": "Temple of Heaven Park was the site where emperors of the Ming and Qing dynasties performed sacrificial rites to heaven.",
+      "accuracy": 0.5,
+      "details": [
+        {
+          "zh": "天坛公园",
+          "en_found": "temple of heaven",
+          "en_standard": "The Temple of Heaven",
+          "status": "alias_match",
+          "score": 0.9
+        },
+        {
+          "zh": "天坛",
+          "en_found": null,
+          "en_standard": "The Temple of Heaven",
+          "status": "missing",
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "id": "020",
+      "source": "从伦敦希思罗机场乘坐地铁可直达市中心。",
+      "translation": "Take the subway from London Heathrow Airport to reach the city center directly.",
+      "accuracy": 1.0,
+      "details": [
+        {
+          "zh": "伦敦希思罗机场",
+          "en_found": "London Heathrow Airport",
+          "en_standard": "London Heathrow Airport",
+          "status": "exact_match",
+          "score": 1.0
+        },
+        {
+          "zh": "希思罗机场",
+          "en_found": "London Heathrow Airport",
+          "en_standard": "London Heathrow Airport",
+          "status": "exact_match",
+          "score": 1.0
+        },
+        {
+          "zh": "伦敦希思罗",
+          "en_found": "London Heathrow Airport",
+          "en_standard": "London Heathrow Airport",
+          "status": "exact_match",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "021",
+      "source": "丽江古城是中国保存最完好的古城之一。",
+      "translation": "Lijiang Ancient Town is one of the best-preserved ancient towns in China.",
+      "accuracy": 0.0,
+      "details": [
+        {
+          "zh": "丽江古城",
+          "en_found": null,
+          "en_standard": "Old Town of Lijiang",
+          "status": "missing",
+          "score": 0.0
+        },
+        {
+          "zh": "丽江",
+          "en_found": null,
+          "en_standard": "Old Town of Lijiang",
+          "status": "missing",
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "id": "022",
+      "source": "从巴黎戴高乐机场乘坐RER B线可直达巴黎市区。",
+      "translation": "Take RER Line B from Paris Charles de Gaulle Airport to reach central Paris directly.",
+      "accuracy": 1.0,
+      "details": [
+        {
+          "zh": "戴高乐机场",
+          "en_found": "Paris Charles de Gaulle Airport",
+          "en_standard": "Paris Charles de Gaulle Airport",
+          "status": "exact_match",
+          "score": 1.0
+        },
+        {
+          "zh": "巴黎戴高乐",
+          "en_found": "Paris Charles de Gaulle Airport",
+          "en_standard": "Paris Charles de Gaulle Airport",
+          "status": "exact_match",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "023",
+      "source": "外滩的夜景是上海最迷人的风景之一。",
+      "translation": "The Bund’s night view is one of Shanghai’s most enchanting sights.",
+      "accuracy": 1.0,
+      "details": [
+        {
+          "zh": "外滩",
+          "en_found": "The Bund",
+          "en_standard": "The Bund",
+          "status": "exact_match",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "024",
+      "source": "从纽约肯尼迪国际机场乘坐机场快线可直达曼哈顿。",
+      "translation": "Take the AirTrain from John F. Kennedy International Airport to reach Manhattan directly.",
+      "accuracy": 1.0,
+      "details": []
+    },
+    {
+      "id": "025",
+      "source": "布达拉宫是西藏最宏伟的建筑之一。",
+      "translation": "The Potala Palace is one of the most magnificent buildings in Tibet.",
+      "accuracy": 1.0,
+      "details": [
+        {
+          "zh": "布达拉宫",
+          "en_found": "Potala Palace",
+          "en_standard": "Potala Palace",
+          "status": "exact_match",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "026",
+      "source": "从悉尼机场乘坐火车可直达市中心。",
+      "translation": "Take a train directly from Sydney Airport to the city center.",
+      "accuracy": 0.0,
+      "details": [
+        {
+          "zh": "悉尼机场",
+          "en_found": null,
+          "en_standard": "Sydney Kingsford Smith Airport",
+          "status": "missing",
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "id": "027",
+      "source": "桂林山水甲天下，漓江风光尤为迷人。",
+      "translation": "Guilin’s landscape is acclaimed as the finest under heaven, and the Li River scenery is especially enchanting.",
+      "accuracy": 0.3333333333333333,
+      "details": [
+        {
+          "zh": "桂林山水",
+          "en_found": null,
+          "en_standard": "Guilin Landscape",
+          "status": "missing",
+          "score": 0.0
+        },
+        {
+          "zh": "桂林",
+          "en_found": null,
+          "en_standard": "Guilin Landscape",
+          "status": "missing",
+          "score": 0.0
+        },
+        {
+          "zh": "漓江",
+          "en_found": "Li River",
+          "en_standard": "Li River",
+          "status": "exact_match",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "028",
+      "source": "从迪拜国际机场到市区约需20分钟车程。",
+      "translation": "It takes approximately 20 minutes by car from Dubai International Airport to the city center.",
+      "accuracy": 1.0,
+      "details": [
+        {
+          "zh": "迪拜国际机场",
+          "en_found": "Dubai International Airport",
+          "en_standard": "Dubai International Airport",
+          "status": "exact_match",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "029",
+      "source": "黄山以其奇松、怪石、云海、温泉闻名于世。",
+      "translation": "Mount Huangshan is world-renowned for its oddly shaped pine trees, grotesque rock formations, sea of clouds, and hot springs.",
+      "accuracy": 1.0,
+      "details": [
+        {
+          "zh": "黄山",
+          "en_found": "Mount Huangshan",
+          "en_standard": "Mount Huangshan",
+          "status": "exact_match",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "030",
+      "source": "从东京羽田机场到东京市区仅需30分钟。",
+      "translation": "It takes only 30 minutes from Tokyo Haneda Airport to downtown Tokyo.",
+      "accuracy": 1.0,
+      "details": [
+        {
+          "zh": "东京羽田机场",
+          "en_found": "Tokyo Haneda Airport",
+          "en_standard": "Tokyo Haneda Airport",
+          "status": "exact_match",
+          "score": 1.0
+        },
+        {
+          "zh": "羽田机场",
+          "en_found": "Tokyo Haneda Airport",
+          "en_standard": "Tokyo Haneda Airport",
+          "status": "exact_match",
+          "score": 1.0
+        },
+        {
+          "zh": "东京羽田",
+          "en_found": "Tokyo Haneda Airport",
+          "en_standard": "Tokyo Haneda Airport",
+          "status": "exact_match",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "031",
+      "source": "鼓浪屿是厦门最著名的旅游景点，被誉为海上花园。",
+      "translation": "Gulangyu Island is Xiamen’s most famous tourist attraction and is hailed as the “Garden on the Sea.”",
+      "accuracy": 1.0,
+      "details": [
+        {
+          "zh": "鼓浪屿",
+          "en_found": "Gulangyu Island",
+          "en_standard": "Gulangyu Island",
+          "status": "exact_match",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "032",
+      "source": "从法兰克福机场乘坐高铁可直达德国各大城市。",
+      "translation": "High-speed trains from Frankfurt Airport provide direct access to major cities across Germany.",
+      "accuracy": 1.0,
+      "details": [
+        {
+          "zh": "法兰克福机场",
+          "en_found": "Frankfurt Airport",
+          "en_standard": "Frankfurt Airport",
+          "status": "exact_match",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "033",
+      "source": "莫高窟是世界上现存规模最大的佛教艺术宝库。",
+      "translation": "The Mogao Caves are the largest existing Buddhist art treasure trove in the world.",
+      "accuracy": 1.0,
+      "details": [
+        {
+          "zh": "莫高窟",
+          "en_found": "Mogao Caves",
+          "en_standard": "Mogao Caves",
+          "status": "exact_match",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "034",
+      "source": "从阿姆斯特丹史基浦机场乘坐火车可直达市中心。",
+      "translation": "You can take a train directly from Amsterdam Airport Schiphol to the city center.",
+      "accuracy": 1.0,
+      "details": [
+        {
+          "zh": "阿姆斯特丹史基浦机场",
+          "en_found": "Amsterdam Airport Schiphol",
+          "en_standard": "Amsterdam Airport Schiphol",
+          "status": "exact_match",
+          "score": 1.0
+        },
+        {
+          "zh": "史基浦机场",
+          "en_found": "Amsterdam Airport Schiphol",
+          "en_standard": "Amsterdam Airport Schiphol",
+          "status": "exact_match",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "035",
+      "source": "张家界国家森林公园是电影《阿凡达》的取景地。",
+      "translation": "Zhangjiajie National Forest Park is the filming location for the movie *Avatar*.",
+      "accuracy": 1.0,
+      "details": [
+        {
+          "zh": "张家界国家森林公园",
+          "en_found": "Zhangjiajie National Forest Park",
+          "en_standard": "Zhangjiajie National Forest Park",
+          "status": "exact_match",
+          "score": 1.0
+        },
+        {
+          "zh": "张家界",
+          "en_found": "Zhangjiajie National Forest Park",
+          "en_standard": "Zhangjiajie National Forest Park",
+          "status": "exact_match",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "036",
+      "source": "从洛杉矶国际机场到好莱坞约需40分钟。",
+      "translation": "It takes about 40 minutes from Los Angeles International Airport to Hollywood.",
+      "accuracy": 1.0,
+      "details": [
+        {
+          "zh": "洛杉矶国际机场",
+          "en_found": "Los Angeles International Airport",
+          "en_standard": "Los Angeles International Airport",
+          "status": "exact_match",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "037",
+      "source": "凤凰古城是湘西最具特色的古镇之一。",
+      "translation": "Fenghuang Ancient Town is one of the most distinctive ancient towns in Western Hunan.",
+      "accuracy": 0.5,
+      "details": [
+        {
+          "zh": "凤凰古城",
+          "en_found": "fenghuang ancient town",
+          "en_standard": "Phoenix Ancient Town",
+          "status": "alias_match",
+          "score": 0.9
+        },
+        {
+          "zh": "凤凰",
+          "en_found": null,
+          "en_standard": "Phoenix Ancient Town",
+          "status": "missing",
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "id": "038",
+      "source": "从温哥华国际机场乘坐天车可直达市中心。",
+      "translation": "Take the SkyTrain from Vancouver International Airport directly to downtown.",
+      "accuracy": 1.0,
+      "details": [
+        {
+          "zh": "温哥华国际机场",
+          "en_found": "Vancouver International Airport",
+          "en_standard": "Vancouver International Airport",
+          "status": "exact_match",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "039",
+      "source": "三亚的天涯海角是情侣们向往的浪漫之地。",
+      "translation": "Yalong Bay’s Tianya Haijiao is a romantic destination cherished by couples.",
+      "accuracy": 1.0,
+      "details": [
+        {
+          "zh": "天涯海角",
+          "en_found": "Tianya Haijiao",
+          "en_standard": "Tianya Haijiao",
+          "status": "exact_match",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "040",
+      "source": "从旧金山国际机场乘坐BART可直达市区。",
+      "translation": "Take BART directly from San Francisco International Airport to downtown.",
+      "accuracy": 1.0,
+      "details": [
+        {
+          "zh": "旧金山国际机场",
+          "en_found": "San Francisco International Airport",
+          "en_standard": "San Francisco International Airport",
+          "status": "exact_match",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "041",
+      "source": "苏州园林是中国古典园林的代表。",
+      "translation": "Suzhou Gardens are representative of classical Chinese gardens.",
+      "accuracy": 1.0,
+      "details": [
+        {
+          "zh": "苏州园林",
+          "en_found": "suzhou gardens",
+          "en_standard": "Classical Gardens of Suzhou",
+          "status": "alias_match",
+          "score": 0.9
+        }
+      ]
+    },
+    {
+      "id": "042",
+      "source": "从曼谷素万那普机场乘坐机场快线可直达市区。",
+      "translation": "Take the Airport Rail Link from Bangkok Suvarnabhumi Airport directly to the city center.",
+      "accuracy": 1.0,
+      "details": [
+        {
+          "zh": "素万那普机场",
+          "en_found": "Suvarnabhumi Airport",
+          "en_standard": "Suvarnabhumi Airport",
+          "status": "exact_match",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "043",
+      "source": "哈尔滨冰雪大世界是世界上最大的冰雪主题乐园。",
+      "translation": "Harbin Ice and Snow World is the world’s largest ice-and-snow-themed park.",
+      "accuracy": 1.0,
+      "details": [
+        {
+          "zh": "哈尔滨冰雪大世界",
+          "en_found": "Harbin Ice and Snow World",
+          "en_standard": "Harbin Ice and Snow World",
+          "status": "exact_match",
+          "score": 1.0
+        },
+        {
+          "zh": "冰雪大世界",
+          "en_found": "Harbin Ice and Snow World",
+          "en_standard": "Harbin Ice and Snow World",
+          "status": "exact_match",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "044",
+      "source": "从吉隆坡国际机场乘坐机场快线可直达市中心。",
+      "translation": "Take the Airport Express from Kuala Lumpur International Airport to reach the city center directly.",
+      "accuracy": 1.0,
+      "details": [
+        {
+          "zh": "吉隆坡国际机场",
+          "en_found": "Kuala Lumpur International Airport",
+          "en_standard": "Kuala Lumpur International Airport",
+          "status": "exact_match",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "045",
+      "source": "台北101曾是世界上最高的建筑。",
+      "translation": "Taipei 101 was once the tallest building in the world.",
+      "accuracy": 1.0,
+      "details": [
+        {
+          "zh": "台北101",
+          "en_found": "Taipei 101",
+          "en_standard": "Taipei 101",
+          "status": "exact_match",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "046",
+      "source": "从多哈哈马德国际机场到多哈市中心约需20分钟。",
+      "translation": "It takes approximately 20 minutes from Hamad International Airport in Doha to the city center of Doha.",
+      "accuracy": 1.0,
+      "details": [
+        {
+          "zh": "多哈哈马德国际机场",
+          "en_found": "Hamad International Airport",
+          "en_standard": "Hamad International Airport",
+          "status": "exact_match",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "047",
+      "source": "维多利亚港的夜景是香港最著名的景观之一。",
+      "translation": "The night view of Victoria Harbour is one of Hong Kong’s most iconic landmarks.",
+      "accuracy": 1.0,
+      "details": [
+        {
+          "zh": "维多利亚港",
+          "en_found": "Victoria Harbour",
+          "en_standard": "Victoria Harbour",
+          "status": "exact_match",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "048",
+      "source": "从新加坡樟宜机场到市区约需20分钟车程。",
+      "translation": "It takes approximately 20 minutes by car from Singapore Changi Airport to the city center.",
+      "accuracy": 1.0,
+      "details": [
+        {
+          "zh": "新加坡樟宜机场",
+          "en_found": "Singapore Changi Airport",
+          "en_standard": "Singapore Changi Airport",
+          "status": "exact_match",
+          "score": 1.0
+        },
+        {
+          "zh": "樟宜机场",
+          "en_found": "Singapore Changi Airport",
+          "en_standard": "Singapore Changi Airport",
+          "status": "exact_match",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "049",
+      "source": "大三巴牌坊是澳门最具标志性的建筑。",
+      "translation": "Ruins of St. Paul’s is Macau’s most iconic landmark.",
+      "accuracy": 0.0,
+      "details": [
+        {
+          "zh": "大三巴牌坊",
+          "en_found": null,
+          "en_standard": "Ruins of St. Paul's",
+          "status": "missing",
+          "score": 0.0
+        },
+        {
+          "zh": "大三巴",
+          "en_found": null,
+          "en_standard": "Ruins of St. Paul's",
+          "status": "missing",
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "id": "050",
+      "source": "从北京大兴国际机场乘坐机场快线可直达市区。",
+      "translation": "Take the airport express line from Beijing Daxing International Airport to reach the city center directly.",
+      "accuracy": 1.0,
+      "details": [
+        {
+          "zh": "北京大兴国际机场",
+          "en_found": "Beijing Daxing International Airport",
+          "en_standard": "Beijing Daxing International Airport",
+          "status": "exact_match",
+          "score": 1.0
+        }
+      ]
+    }
+  ]
+}
